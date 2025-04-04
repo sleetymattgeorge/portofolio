@@ -1,19 +1,20 @@
 import { InlineCode } from "@/once-ui/components";
+import { display } from "./config";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Sleety",
+  lastName: "George",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "DevOps Enginner",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -29,12 +30,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/sleetymattgeorge",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/sleetymattgeorge",
   },
   {
     name: "X",
@@ -44,7 +45,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:sleetygeorge@gmail.com",
   },
 ];
 
@@ -52,11 +53,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Sleety George</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      DevOps Engineer at <InlineCode>Stackgenie</InlineCode>, where I make and
+      <br /> break stuff.
     </>
   ),
 };
@@ -70,10 +71,10 @@ const about = {
     subItems: false,
   },
   avatar: {
-    display: true,
+    display: false,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -81,9 +82,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Hey, besides running multiple business accelerators and helping people achieve their dream physiques via nutrition. I work as a DevOps Enginner at Stackgenie.
       </>
     ),
   },
@@ -92,34 +91,34 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Stackgenie",
+        timeframe: "2025 - Present",
+        role: "DevOps Engineer",
         achievements: [
-          <>
+          /*<>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
             engagement and 30% faster load times.
           </>,
           <>
             Spearheaded the integration of AI tools into design workflows, enabling designers to
             iterate 50% faster.
-          </>,
+          </>,*/
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
+          /*{
             src: "/images/projects/project-01/cover-01.jpg",
             alt: "Once UI Project",
             width: 16,
             height: 9,
-          },
+          },*/
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
+        company: "Xerox",
+        timeframe: "2023 - 2025",
+        role: "Lead DevOps Engineer",
+        achievements: [/*
           <>
             Developed a design system that unified the brand across multiple platforms, improving
             design consistency by 40%.
@@ -128,13 +127,13 @@ const about = {
             Led a cross-functional team to launch a new product line, contributing to a 15% increase
             in overall company revenue.
           </>,
-        ],
+        */],
         images: [],
       },
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Studies",
     institutions: [
       {
@@ -148,7 +147,7 @@ const about = {
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Technical skills",
     skills: [
       {
@@ -188,6 +187,7 @@ const about = {
 };
 
 const blog = {
+  display: false,
   label: "Blog",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
@@ -196,6 +196,7 @@ const blog = {
 };
 
 const work = {
+  display: false,
   label: "Work",
   title: "My projects",
   description: `Design and dev projects by ${person.name}`,
@@ -204,6 +205,7 @@ const work = {
 };
 
 const gallery = {
+  display: false,
   label: "Gallery",
   title: "My photo gallery",
   description: `A photo collection by ${person.name}`,
