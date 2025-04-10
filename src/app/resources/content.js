@@ -123,11 +123,7 @@ const about = {
             Implemented Ansible pipeline in a large scale on premise infrastructure, reducing deployment
             time by 220% and minimizing human error.
           </>,
-          /*<>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        */],
+        ],
         images: [],
       },
     ],
