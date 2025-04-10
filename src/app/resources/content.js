@@ -118,16 +118,11 @@ const about = {
         company: "Xerox",
         timeframe: "2023 - 2025",
         role: "DevOps Engineer",
-        achievements: [/*
+        achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Deployed dotnet applications using ansible resulting in a 220% reduction in deployment times.
           </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        */],
+          ],
         images: [],
       },
     ],
@@ -138,6 +133,8 @@ const about = {
     institutions: [
       {
         name: "Rajagiri School of Engineering and Technology",
+        timeframe: "2019 - 2023",
+        role: "Bachelor of Technology in Computer Science",
       },
     ],
   },
