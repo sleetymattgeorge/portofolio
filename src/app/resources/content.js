@@ -117,24 +117,32 @@ const about = {
       {
         company: "Xerox",
         timeframe: "2023 - 2025",
-        role: "DevOps Engineer",
-        achievements: [
+        role: "Lead DevOps Engineer",
+        achievements: [/*
           <>
-            Implemented Ansible pipeline in a large scale on premise infrastructure, reducing deployment
-            time by 220% and minimizing human error.
+            Developed a design system that unified the brand across multiple platforms, improving
+            design consistency by 40%.
           </>,
-        ],
+          <>
+            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            in overall company revenue.
+          </>,
+        */],
         images: [],
       },
     ],
   },
   studies: {
-    display: True, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Studies",
     institutions: [
       {
-        name: "Rajagiri School of Engineering and Technology",
+        name: "University of Jakarta",
         description: <>Studied software engineering.</>,
+      },
+      {
+        name: "Build the Future",
+        description: <>Studied online marketing and personal branding.</>,
       },
     ],
   },
