@@ -117,7 +117,7 @@ const about = {
       {
         company: "Xerox",
         timeframe: "2023 - 2025",
-        role: "Lead DevOps Engineer",
+        role: "DevOps Engineer",
         achievements: [/*
           <>
             Developed a design system that unified the brand across multiple platforms, improving
@@ -133,16 +133,11 @@ const about = {
     ],
   },
   studies: {
-    display: false, // set to false to hide this section
+    display: true, // set to false to hide this section
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Rajagiri School of Engineering and Technology",
       },
     ],
   },
