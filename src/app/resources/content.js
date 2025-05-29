@@ -7,7 +7,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "DevOps Enginner, Nutrition Coach",
+  role: "DevOps Engineer, Nutrition Coach",
   avatar: "/images/avatar.jpg",
   location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
@@ -95,14 +95,9 @@ const about = {
         timeframe: "2025 - Present",
         role: "DevOps Engineer",
         achievements: [
-          /*<>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,*/
+            Building a ton of terraform scripts, living inside AWS and executing stuff with Linux, Bash and Github Actions. This section will have a proper update one day.
+          </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
