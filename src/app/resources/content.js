@@ -7,7 +7,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "DevOps Enginner",
+  role: "DevOps Enginner, Nutrition Coach",
   avatar: "/images/avatar.jpg",
   location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
@@ -82,7 +82,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Besides running multiple business accelerators, working with the biggest athletes and celebrities as a nutrition coach. I have been a DevOps Engineer for the past 2+ years.
+        Besides running multiple successful business accelerators, working with the biggest athletes and content creators as a nutrition coach and manager. I have been a DevOps Engineer for the past 2+ years.
       </>
     ),
   },
@@ -120,9 +120,13 @@ const about = {
         role: "DevOps Engineer",
         achievements: [
           <>
-            - Spearheaded ansible CI into development and staging workflows, reducing deployment times by 220%.
-            - Led major POC projects, including implementing Dotnet Aspire and Razor, to replace legacy core frameworks.
-            - Built an image processing API significantly used till date.
+              Spearheaded ansible CI into development and staging workflows, reducing deployment times by 220%.
+          </>,
+          <>
+              Led major POC projects, including implementing Dotnet Aspire and Razor, to replace legacy core frameworks.
+          </>,
+          <>
+            Built an image processing API significantly used till date.
           </>,
           ],
         images: [],
