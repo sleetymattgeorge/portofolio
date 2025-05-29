@@ -82,7 +82,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Hey, besides running multiple business accelerators and helping people achieve their dream physiques via nutrition. I work as a DevOps Enginner at Stackgenie.
+        Besides running multiple business accelerators, working with the biggest athletes and celebrities as a nutrition coach. I have been a DevOps Engineer for the past 2+ years.
       </>
     ),
   },
@@ -120,7 +120,9 @@ const about = {
         role: "DevOps Engineer",
         achievements: [
           <>
-            Deployed dotnet applications using ansible resulting in a 220% reduction in deployment times.
+            - Spearheaded ansible CI into development and staging workflows, reducing deployment times by 220%.
+            - Led major POC projects, including implementing Dotnet Aspire and Razor, to replace legacy core frameworks.
+            - Built an image processing API significantly used till date.
           </>,
           ],
         images: [],
